@@ -1,0 +1,17 @@
+<input id='first-name' value='Wlad' class='first-name-input' />
+<input id='last-name' value='Loban' class='last-name-input' />
+<input id='adres' value='adres' class='ares-input' />
+
+<select id="adres">
+    <option value='adres'>Minsk</option>
+    <option>Moscow</option>
+    <option>Kiev</option>
+    <option>Grodno</option>
+  </select>
+<script>
+    // находим элемент по айдишнику и  результат (найденный элемент) присваиваем переменной firstNameEl
+    var firstNameEl = document.getElementById('first-name');
+
+    // выводим в консоль значение атрибута value у найденного элемента
+    console.log(firstNameEl.value);
+</script>
