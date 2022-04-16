@@ -1,0 +1,28 @@
+<div class="shadowbox" class="shadowbox_1">
+    <div class="shadowbox_1">
+        <p>Mail:</p>
+        <input maxlength="20" size="20" id="mail" name="login">
+    </div>
+    <div class="shadowbox_1">
+        <p>Password:</p>
+        <input type="password" maxlength="20" size="20" id="password" name="password">
+    </div>
+
+
+    <div class="shadowbox_1">
+        <label for="remember me" class="shadowbox_2"><input id="remember"  type="checkbox" name="remember" value="remember me">remember me</label>
+        <label class="shadowbox_3"><input type="button" id='login' value="Login"></label>
+    </div>
+
+
+    <link rel="stylesheet" href="login.css">
+
+    <script>
+        var password = document.getElementById('password');
+        var loginButton = document.getElementById('login');
+        loginButton.onclick = function() {
+            window.alert('login:')
+            window.alert('password:')
+
+        }
+    </script>
